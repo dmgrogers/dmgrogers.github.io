@@ -2,7 +2,11 @@
 layout: default
 title: Testing...
 ---
-# Welcome!
 
-This blog is currently under construction.  
+Welcome!
+===
+
+This site contains a very brief "About me" section, several portfolio items, and a series of potential (not yet actual) blog posts.
+
+Enjoy!
 
