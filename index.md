@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testing...
+title: Welcome
 ---
 
 Welcome!
