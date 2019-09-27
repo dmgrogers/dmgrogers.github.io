@@ -4,11 +4,12 @@ title: Portfolio
 ---
 
 Portfolio
---------
+===
 
 (Note: These portfolio items are unfortunately many months out of date already, since most of them were written in early 2019.)
 
-#### Exercises and references in R
+R
+---
 [Basic linear modeling and inference](../portfolio/2019-02-09-R-basic-linear-modeling-and-inference)
 
 [Exploratory modeling of fuel consumption data](../portfolio/2019-03-02-R-modeling-fuel-consumption.html)
@@ -18,11 +19,13 @@ Portfolio
 [sqldf package](../portfolio/2019-02-24-R-sqldf-package.html)
 
 
-#### Exercises and references in Python
+Python
+---
 [Decision tree classification](../portfolio/2019-03-13-Py-decision-tree.html)
 
 
-#### Exercises and references in SQL
+SQL
+---
 
 [Part 1: create some tables](../portfolio/2019-02-24-SQL-create-scheduling-example-tables)
 
