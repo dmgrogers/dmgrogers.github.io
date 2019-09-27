@@ -6,22 +6,26 @@ title: Portfolio
 Portfolio
 ===
 
-(Note: These portfolio items are unfortunately many months out of date already, since most of them were written in early 2019.)
+Here are several portfolio items from early 2019.  I hope to add some that reflect my more recent work as well.
 
 R
 ---
 [Basic linear modeling and inference](../portfolio/2019-02-09-R-basic-linear-modeling-and-inference)
 
+[sqldf package](../portfolio/2019-02-24-R-sqldf-package.html)
+
 [Exploratory modeling of fuel consumption data](../portfolio/2019-03-02-R-modeling-fuel-consumption.html)
 
 [Ridge regression](../portfolio/2019-04-03-R-ridge-regression.html)
 
-[sqldf package](../portfolio/2019-02-24-R-sqldf-package.html)
+
 
 
 Python
 ---
 [Decision tree classification](../portfolio/2019-03-13-Py-decision-tree.html)
+
+
 
 
 SQL
