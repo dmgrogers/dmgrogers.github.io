@@ -13,4 +13,6 @@ Portfolio
 
 [Ridge regression in R](../portfolio/2019-04-03-R-ridge-regression.html)
 
+[test](../about)
+
 
