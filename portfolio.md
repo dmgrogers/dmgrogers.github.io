@@ -12,7 +12,7 @@ R
 ---
 [Basic linear modeling and inference (February 2019)](../portfolio/2019-02-09-R-basic-linear-modeling-and-inference)
 
-[sqldf package (February 2019)](../portfolio/2019-02-24-R-sqldf-package.html)
+[SQLdf package (February 2019)](../portfolio/2019-02-24-R-sqldf-package.html)
 
 [Exploratory modeling of fuel consumption data (March 2019)](../portfolio/2019-03-02-R-modeling-fuel-consumption.html)
 
