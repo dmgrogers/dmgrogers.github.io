@@ -1,0 +1,23 @@
+
+dlopen(/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/_psycopg.cpython-37m-darwin.so, 2): Library not loaded: libssl.1.1.dylib
+  Referenced from: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/_psycopg.cpython-37m-darwin.so
+  Reason: image not found
+  
+  https://stackoverflow.com/questions/16407995/psycopg2-image-not-found
+  
+  sudo ln -s /Library/PostgreSQL/9.2/lib/libssl.1.0.0.dylib /usr/lib
+$ sudo ln -s /Library/PostgreSQL/9.2/lib/libcrypto.1.0.0.dylib /usr/lib
+
+
+
+sudo ln -s /Applications/Postgres.app/Contents/MacOS/lib/libssl.1.0.0.dylib /usr/lib 
+sudo ln -s /Applications/Postgres.app/Contents/MacOS/lib/libcrypto.1.0.0.dylib /usr/lib
+
+
+... but there's hardly anything in the macos directory here!  
+
+Uninstalled postgres.app: https://postgresapp.com/documentation/install.html
+
+Going to try just installing correct postgresql version and connecting to pgadmin4...
+
+
