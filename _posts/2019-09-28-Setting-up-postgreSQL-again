@@ -21,3 +21,40 @@ Uninstalled postgres.app: https://postgresapp.com/documentation/install.html
 Going to try just installing correct postgresql version and connecting to pgadmin4...
 
 
+Uninstalled and reinsalled psycopg2, got this error again:
+Error: pg_config executable not found.
+    
+    pg_config is required to build psycopg2 from source.  Please add the directory
+    containing pg_config to the $PATH or specify the full executable path with the
+    option:
+
+
+export PATH=$PATH:/library/postgresql/10/bin
+(only updates it for the current session)
+
+
+
+Now able to install psycopg2 (2.8.3), unable to import:
+
+/library/postgresql/10/lib
+libcrypto.1.1.dylib
+libssl.1.1.dylib
+
+
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/__init__.py", line 50, in <module>
+    from psycopg2._psycopg import (                     # noqa
+ImportError: dlopen(/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/_psycopg.cpython-37m-darwin.so, 2): Library not loaded: libssl.1.1.dylib
+  Referenced from: /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2/_psycopg.cpython-37m-darwin.so
+  Reason: image not found
+ 
+ This might work:
+https://stackoverflow.com/questions/16407995/psycopg2-image-not-found
+
+  sudo ln -s /Library/PostgreSQL/10/lib/libssl.1.1.dylib /usr/lib
+  sudo ln -s /Library/PostgreSQL/10/lib/libcrypto.1.1.dylib /usr/lib
+
+
+(if all else fails... reinstall anaconda distro?)
+
+
+
