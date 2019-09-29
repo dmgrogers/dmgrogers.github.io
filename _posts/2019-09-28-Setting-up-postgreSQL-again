@@ -50,11 +50,19 @@ ImportError: dlopen(/Library/Frameworks/Python.framework/Versions/3.7/lib/python
  This might work:
 https://stackoverflow.com/questions/16407995/psycopg2-image-not-found
 
+cd /
   sudo ln -s /Library/PostgreSQL/10/lib/libssl.1.1.dylib /usr/lib
   sudo ln -s /Library/PostgreSQL/10/lib/libcrypto.1.1.dylib /usr/lib
 
+... But this produced an identical error!
 
-(if all else fails... reinstall anaconda distro?)
+
+https://github.com/psycopg/psycopg2/issues/385
+
+
+Try just installing conda (that is, miniconda - conda and its dependencies)
+
+Still no go
 
 
 
