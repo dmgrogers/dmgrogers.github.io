@@ -65,4 +65,23 @@ Try just installing conda (that is, miniconda - conda and its dependencies)
 Still no go
 
 
+... noticed that the path mentioned in the error was still the one used by pip, rather than by conda.
+Removed these files (even though I had run pip uninstall)
+Now module not found... trying to add to path variable in macos turns out to be difficult.
+
+https://scriptingosx.com/2017/04/on-bash-environment-variables/
+
+PATH=${PATH}:/Users/david/miniconda3/lib/python3.7/site-packages
+export PATH
+
+
+Try creating a conda environment, installing, then activating and trying to import:
+https://ncgas.org/Blog_Posts/Installing%20conda%20packages%20locally.php
+
+
+Activated the conda environment, installed pscyopg2, switched to this interpreter in pycharm, ran original script that used psycopg2... and it worked!
+
+
+
+
 
