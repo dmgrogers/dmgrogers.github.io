@@ -81,7 +81,8 @@ https://ncgas.org/Blog_Posts/Installing%20conda%20packages%20locally.php
 
 Activated the conda environment, installed pscyopg2, switched to this interpreter in pycharm, ran original script that used psycopg2... and it worked!
 
-
+Misc other:
+https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/
 
 
 
